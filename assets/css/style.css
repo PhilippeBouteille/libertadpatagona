@@ -140,6 +140,8 @@ footer{background:var(--charcoal); color:var(--paper); padding:4.4rem 2.6rem 2.2
 .autor-caption .code{font-size:0.72rem; color:var(--wood); margin-bottom:0.4rem;}
 .autor-caption .name{font-family:"Fraunces",serif; font-size:1.4rem;}
 .autor-caption .meta{font-size:0.84rem; color:rgba(247,243,234,0.65); font-weight:300; max-width:46ch;}
+.autor-piece .autor-caption{display:block; max-width:none; margin:1.1rem 0 0;}
+.autor-piece .autor-caption .meta{margin-top:0.7rem;}
 .autor-origen-banner{position:relative; height:56vh; min-height:380px; overflow:hidden; width:100%; background:#000 url("../img/esquila-galpon.webp") center 62% / cover no-repeat; display:flex; align-items:center;}
 .autor-origen-banner::before{content:""; position:absolute; inset:0; background:linear-gradient(90deg, rgba(20,16,12,0.68) 0%, rgba(20,16,12,0.22) 55%, rgba(20,16,12,0.05) 100%);}
 .autor-origen-banner-inner{position:relative; z-index:2; max-width:460px; padding:0 2.4rem;}
