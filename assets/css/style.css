@@ -63,8 +63,8 @@ footer{background:var(--charcoal); color:var(--paper); padding:4.4rem 2.6rem 2.2
 .footer-col .eyebrow{margin-bottom:1rem;}
 .footer-col a, .footer-col p{display:block; font-size:0.86rem; color:rgba(247,243,234,0.78); margin-bottom:0.55rem; font-weight:300;}
 .footer-col .footer-social{display:flex; gap:0.7rem; margin-top:1.1rem;}
-.footer-col .footer-social a{display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; margin:0; border:1px solid var(--line-light); color:rgba(247,243,234,0.78); transition:color .25s ease, border-color .25s ease, background .25s ease;}
-.footer-col .footer-social a:hover{color:var(--charcoal); background:var(--paper); border-color:var(--paper);}
+.footer-col .footer-social a{display:inline-flex; align-items:center; justify-content:center; margin:0; color:rgba(247,243,234,0.78); transition:color .25s ease;}
+.footer-col .footer-social a:hover{color:var(--paper);}
 .footer-bottom{max-width:1180px; margin:0 auto; display:flex; justify-content:space-between; font-size:0.68rem; color:var(--stone); padding-top:1.8rem; border-top:1px solid var(--line-light); font-family:"IBM Plex Mono",monospace;}
 .hero{position:relative; height:100vh; min-height:640px; overflow:hidden;}
 .hero-split{position:absolute; inset:0; display:flex;}
