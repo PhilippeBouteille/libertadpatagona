@@ -33,12 +33,13 @@
 <img alt="Libertad Patagonia" class="logo-dark" fetchpriority="high" height="91" loading="eager" src="assets/img/logo-footer.png" width="472"/>
 </div>
 </a>
-<nav>
+<nav id="siteNav">
 <a href="pieza-de-autor.html">Pieza de autor</a>
 <a class="current" href="coleccion.html">Colección</a>
 <a href="servicios.html">A medida</a>
 <a class="nav-cta" href="https://wa.me/56962540185?text=Hola%2C%20les%20escribo%20desde%20el%20sitio%20web%20de%20Libertad%20Patagonia." target="_blank" rel="noopener">Contáctame</a>
 </nav>
+<button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="siteNav"><span></span><span></span></button>
 </header>
 <div class="page-banner" style="background-image:url('assets/img/24b.webp'); background-position:center 25%;">
 <div class="page-banner-inner">
@@ -199,5 +200,6 @@
     document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
   }
 </script>
+<script defer src="assets/js/nav.js"></script>
 </body>
 </html>
