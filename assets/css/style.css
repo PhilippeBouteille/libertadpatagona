@@ -209,3 +209,13 @@ section{padding:4.5rem 1.4rem;}
 *{transition:none !important; scroll-behavior:auto !important;}
 .reveal{opacity:1; transform:none;}
 }
+.cookie-banner{position:fixed; left:1.2rem; bottom:1.2rem; z-index:150; max-width:520px; display:flex; flex-direction:column; gap:1rem; padding:1.2rem 1.4rem; background:var(--charcoal); color:var(--paper); border:1px solid var(--line-light); box-shadow:0 8px 30px rgba(20,16,12,0.35);}
+.cookie-banner p{font-size:0.84rem; line-height:1.5; font-weight:300; color:rgba(247,243,234,0.85);}
+.cookie-actions{display:flex; gap:0.7rem; flex-wrap:wrap;}
+.cookie-btn{font-family:"IBM Plex Mono",monospace; font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase; padding:0.7rem 1.3rem; cursor:pointer; -webkit-appearance:none; appearance:none; border:1px solid rgba(247,243,234,0.6); background:none; color:var(--paper); transition:background .25s ease, color .25s ease;}
+.cookie-btn:hover{background:var(--paper); color:var(--charcoal);}
+.cookie-btn-ok{background:var(--paper); color:var(--charcoal); border-color:var(--paper);}
+.cookie-btn-ok:hover{background:transparent; color:var(--paper);}
+@media (max-width: 880px){
+.cookie-banner{left:0.8rem; right:0.8rem; bottom:0.8rem; max-width:none;}
+}
