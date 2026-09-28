@@ -35,6 +35,7 @@ header.static .brand-logo .logo-light{display:none;}
 header.static .brand-logo .logo-dark{display:block;}
 header.static nav a{color:var(--charcoal);}
 nav{align-items:center;}
+nav .lang-switch{font-family:"IBM Plex Mono",monospace; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase;}
 nav .nav-cta{display:inline-block; opacity:1; padding:0.5rem 1.1rem; border:1px solid currentColor; font-family:"IBM Plex Mono",monospace; font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; transition:background .3s ease, color .3s ease, border-color .3s ease;}
 nav .nav-cta:hover{background:var(--paper); color:var(--charcoal); border-color:var(--paper);}
 header.solid nav .nav-cta:hover, header.static nav .nav-cta:hover{background:var(--charcoal); color:var(--paper); border-color:var(--charcoal);}
@@ -181,6 +182,7 @@ body.nav-open .brand-logo .logo-light{display:none;}
 body.nav-open .brand-logo .logo-dark{display:block;}
 body.nav-open #siteNav{display:flex; position:fixed; top:0; left:0; right:0; bottom:0; z-index:1; flex-direction:column; justify-content:center; align-items:flex-start; gap:1.7rem; padding:6rem 1.8rem 3rem; background:var(--cream); overflow-y:auto;}
 #siteNav a{color:var(--charcoal); opacity:1; font-family:"Fraunces",serif; font-size:1.7rem;}
+#siteNav a.lang-switch{font-family:"IBM Plex Mono",monospace; font-size:0.85rem;}
 #siteNav a.nav-cta{margin-top:1rem; font-family:"IBM Plex Mono",monospace; font-size:0.8rem; padding:0.9rem 1.6rem;}
 #siteNav a.nav-cta:hover{background:var(--charcoal); color:var(--paper); border-color:var(--charcoal);}
 section{padding:4.5rem 1.4rem;}
